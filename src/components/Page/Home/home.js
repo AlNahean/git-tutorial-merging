@@ -1,14 +1,12 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { useGlobalContext } from "../../Context";
 
-import "./Home.scss"
+import "./Home.scss";
 
 const Home = () => {
   const { test } = useGlobalContext();
 
-  return <div>
-    Home
-  </div>;
+  return <div>Home</div>;
 };
 
 export default Home;
